@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Monsterrat", sans-serif;
+}
+
+.bd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 400px;
+    width: 800px;
+    height: 60px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+}
+
+
+.search-icon{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    justify-content: left;
+    margin: 7px 760px 10px 0;
+    position: absolute;
+}
+
+.ipt{
+    display: block;
+    margin-right: 380px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    border: 0.5px solid rgba(31, 31, 31, 0.1);
+}
+
+.btn1{
+    padding: 10px;
+    background-color: rgba(144, 144, 255, 0.3);
+    color: blue;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    cursor: pointer;
+}
